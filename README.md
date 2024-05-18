@@ -2,7 +2,8 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="src/assets/project-name.svg" alt="Logo" width="80" height="80">
+    q
+<img src="src/assets/project-name.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Ticket Nami Project</h3>
@@ -10,7 +11,7 @@
   <p align="center">
     This Project to book tickets for events
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Website</strong></a>
+    <a href="https://ticket.longphanp.com"><strong>Website</strong></a>
   </p>
 </div>
 
