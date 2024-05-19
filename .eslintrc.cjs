@@ -6,6 +6,7 @@ module.exports = {
   ignorePatterns: ["src/configs/*"],
   parserOptions: {
     project: "./tsconfig.json",
+    sourceType: "module",
   },
   rules: {
     "import/extensions": ["off", "never"],

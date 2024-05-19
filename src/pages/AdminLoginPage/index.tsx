@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 
 import logo from "assets/logo.svg";
 import { setTokens } from "localstorage/token";
-import pathname from "routes/pathname";
+import adminPathname from "routes/adminPathname";
 import login from "services/auth/login";
 
 import {
@@ -16,7 +16,7 @@ import { CredentialResponse, GoogleLogin } from "@react-oauth/google";
 
 import useStyles from "./styles";
 
-export default function LoginPage() {
+export default function AdminLoginPage() {
   const { classes } = useStyles();
   const navigate = useNavigate();
 
@@ -27,11 +27,11 @@ export default function LoginPage() {
     });
 
     setTokens(data);
-    navigate(pathname.home);
+    navigate(adminPathname.home);
   };
 
   const onError = () => {
-    navigate(pathname.error);
+    navigate(adminPathname.error);
   };
 
   return (
@@ -40,13 +40,13 @@ export default function LoginPage() {
         <CardMedia sx={{ height: 140 }} image={logo} title="green iguana" />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Login to Ticket Nami
+            Login to Ticket Nami Admin
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            A website that provide booking service
+            A website that provide manage booking website
           </Typography>
         </CardContent>
-        <CardActions className={classes.cardAction}>
+        <CardActions>
           <GoogleLogin onSuccess={onSuccess} onError={onError} />
         </CardActions>
       </Card>

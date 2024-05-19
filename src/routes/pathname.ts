@@ -1,7 +1,5 @@
-const pathname = {
+export default {
   home: "/",
   login: "/login",
-  notFound: "*",
+  error: "/error",
 };
-
-export default pathname;
