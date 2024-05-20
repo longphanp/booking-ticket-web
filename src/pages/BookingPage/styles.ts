@@ -6,6 +6,7 @@ const useStyles = tss.create({
     padding: "16px",
     flexWrap: "wrap",
     gap: "8px",
+    overflow: "auto",
   },
 });
 
