@@ -2,7 +2,6 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    q
 <img src="src/assets/project-name.svg" alt="Logo" width="80" height="80">
   </a>
 
@@ -45,7 +44,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](src/assets/screenshot.png)
 
 - This website allow you to book a ticket for an event
 - This also include admin page to manage ticket booking and events.
