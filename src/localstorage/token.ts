@@ -1,4 +1,4 @@
-import Token from "types/auth/Token";
+import Token from "types/Token";
 import { jsonParse } from "utils/json/jsonParse";
 import { jsonStringify } from "utils/json/jsonStringify";
 

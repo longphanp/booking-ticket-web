@@ -16,6 +16,4 @@ const configs = {
   },
 };
 
-console.log(import.meta.env);
-
 export default configs;

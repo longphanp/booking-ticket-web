@@ -3,5 +3,5 @@ dist
 npm-debug.log
 .env
 .DS_Store
-package-log.json
+package-lock.json
 .vercel

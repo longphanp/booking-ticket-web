@@ -1,6 +1,6 @@
 import axios from "axios";
 import configs from "configs";
-import Token from "types/auth/Token";
+import Token from "types/Token";
 
 export default async function login(payload: {
   credential: string;
