@@ -27,7 +27,7 @@ export default function AdminLoginPage() {
     });
 
     setTokens(data);
-    navigate(adminPathname.home);
+    navigate(`/admin/${adminPathname.home}`);
   };
 
   const onError = () => {

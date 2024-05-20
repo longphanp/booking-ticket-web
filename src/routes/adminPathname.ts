@@ -1,5 +1,6 @@
 export default {
-  home: "/admin",
-  login: "/admin/login",
-  error: "/admin/error",
+  home: "",
+  login: "login",
+  tickets: "tickets",
+  error: "error",
 };
