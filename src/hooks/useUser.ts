@@ -6,7 +6,7 @@ export default function useUser() {
   const tokenPayload = parseJwt(tokens?.accessToken);
 
   return {
-    email: tokenPayload.email,
+    email: tokenPayload?.email,
     name: tokenPayload.name,
   };
 }
