@@ -49,6 +49,10 @@
 - This website allow you to book a ticket for an event
 - This also include admin page to manage ticket booking and events.
 
+> User page: https://ticket.longphanp.com
+
+> Admin page: https://ticket.longphanp.com/admin
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
