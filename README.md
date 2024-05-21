@@ -99,7 +99,8 @@ Check to see node available on your machine
    ```
 3. Create .env file that include
    ```
-   API_KEY=KEY
+    VITE_GOOGLE_CLIENT_ID=
+    VITE_TICKET_API_ENDPOINT=
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

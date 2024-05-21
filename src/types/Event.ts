@@ -8,3 +8,10 @@ export default interface Event {
   createdAt?: string;
   updatedAt?: string;
 }
+
+export interface EventPayload {
+  name?: string;
+  description?: string;
+  startAt?: string;
+  endAt?: string;
+}
