@@ -34,7 +34,7 @@ interface Props {
 
 export default function EventCard(props: Props) {
   const { classes } = useStyles();
-  const { event, action, bookable } = props;
+  const { event, action = false, bookable = true } = props;
   const navigate = useNavigate();
 
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
