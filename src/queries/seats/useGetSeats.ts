@@ -6,7 +6,7 @@ import getSeats from "services/seats/getSeats";
 export const GET_SEATS = "seats";
 
 export default function useGetSeats(areaId: string) {
-  return useQuery([GET_SEATS], () => getSeats(areaId), {
+  return useQuery([GET_SEATS, areaId], () => getSeats(areaId), {
     staleTime: STALE_TIME.FIVE_MINS,
   });
 }

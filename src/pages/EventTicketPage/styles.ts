@@ -4,6 +4,7 @@ const useStyles = tss.create({
   container: {
     display: "flex",
     padding: "16px",
+    gap: "16px",
   },
 });
 
